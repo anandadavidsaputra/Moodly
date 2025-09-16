@@ -27,9 +27,11 @@
         flex-wrap: wrap;
         max-width: 1000px;
         width: 100%;
-        margin: 20px auto; /* auto horizontal centering */
+        margin: 20px auto; /* center horizontal & jarak atas/bawah */
         gap: 20px;
-        flex: 1; /* agar footer tetap di bawah */
+        flex: 1;
+        box-sizing: border-box; /* pastikan padding tidak meluber */
+        padding: 0 10px; /* margin samping minimal di hp */
       }
 
       .box {
@@ -167,9 +169,7 @@
       @media (max-width: 800px) {
         .main-container {
           flex-direction: column;
-        }
-        textarea {
-          height: 80px;
+          padding: 0 15px; /* beri padding lebih di layar kecil */
         }
       }
       .streak {
@@ -186,7 +186,7 @@
       }
       .footer {
         text-align: center;
-        padding: 20px 0;
+        margin-bottom: 20px;
         font-size: 12px;
         color: #ffffff;
       }
@@ -236,9 +236,7 @@
         </div>
       </div>
     </div>
-    <footer class="footer">
-      Copyright © Moodly - Ananda David Saputa.
-    </footer>
+    <footer class="footer">Copyright © Moodly - Ananda David Saputa.</footer>
 
     <script>
       const moods = document.querySelectorAll(".mood");
