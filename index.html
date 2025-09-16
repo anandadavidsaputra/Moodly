@@ -15,23 +15,21 @@
         background: linear-gradient(135deg, #ff6b6b, #ffd93d, #6a5acd);
         margin: 0;
         padding: 0;
-        /* Hapus ini: display, justify-content, align-items */
         min-height: 100vh;
         display: flex;
         flex-direction: column;
       }
 
-      /* Container utama agar tetap di tengah horizontal */
       .main-container {
         display: flex;
         flex-wrap: wrap;
         max-width: 1000px;
         width: 100%;
-        margin: 20px auto; /* center horizontal & jarak atas/bawah */
+        margin: 20px auto;
         gap: 20px;
         flex: 1;
-        box-sizing: border-box; /* pastikan padding tidak meluber */
-        padding: 0 10px; /* margin samping minimal di hp */
+        box-sizing: border-box;
+        padding: 0 15px; /* padding simetris */
       }
 
       .box {
@@ -41,9 +39,11 @@
         box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
         flex: 1;
         min-width: 300px;
+        max-width: 100%;
         box-sizing: border-box;
         position: relative;
       }
+
       .logo {
         display: block;
         width: 80px;
@@ -121,6 +121,12 @@
       .history,
       .stats {
         margin-top: 20px;
+      }
+      .canvas-wrapper {
+        display: flex;
+        justify-content: center; /* center horizontal */
+        align-items: center; /* center vertikal (optional) */
+        margin-top: 10px;
       }
       .history-item {
         background: #f9f9f9;
@@ -232,7 +238,9 @@
         </div>
         <div class="stats">
           <h2>Statistik Mood</h2>
-          <canvas id="statsPie" width="300" height="300"></canvas>
+          <div class="canvas-wrapper">
+            <canvas id="statsPie" width="300" height="300"></canvas>
+          </div>
         </div>
       </div>
     </div>
