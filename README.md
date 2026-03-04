@@ -1,6 +1,6 @@
 # 😄 Moodly
 
-Sebuah website aplikasi pencatat suasana hati (mood tracker) yang memungkinkan pengguna mencatat mood harian, menambahkan catatan, serta melihat riwayat dan statistik secara sederhana.
+Moodly adalah aplikasi yang dirancang untuk membantu pengguna mencatat dan memantau suasana hati secara sederhana, cepat, dan intuitif.
 
 ---
 
