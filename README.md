@@ -47,3 +47,5 @@ Website ini dibuat untuk tujuan pembelajaran sekaligus menambah proyek dalam por
 ## 📄 License
 
 Project ini dibuat untuk keperluan pembelajaran dan pengembangan portofolio pribadi.
+
+---
