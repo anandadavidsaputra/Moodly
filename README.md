@@ -6,7 +6,7 @@ Moodly adalah aplikasi yang dirancang untuk membantu pengguna mencatat dan meman
 
 ## 🌐 Live Demo
 
-👉 [https://anandadavidsaputra.github.io/Moodly/](https://anandadavidsaputra.github.io/Moodly/)
+👉 https://anandadavidsaputra.github.io/Moodly/
 
 ---
 
